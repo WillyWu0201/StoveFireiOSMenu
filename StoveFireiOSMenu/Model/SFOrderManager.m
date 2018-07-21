@@ -10,6 +10,7 @@
 #import "SFOrderItem.h"
 #import "SFDataManager.h"
 #import "SFDishItem.h"
+#import "SFCommonHeader.h"
 
 @interface SFOrderManager ()
 

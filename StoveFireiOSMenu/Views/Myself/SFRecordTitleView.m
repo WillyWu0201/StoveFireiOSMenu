@@ -7,6 +7,8 @@
 //
 
 #import "SFRecordTitleView.h"
+#import "SFCommonHeader.h"
+#import "RNThemeManager.h"
 
 @implementation SFRecordTitleView
 

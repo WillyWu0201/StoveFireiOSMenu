@@ -1,32 +1,29 @@
 PODS:
-  - AFNetworking (2.5.4):
-    - AFNetworking/NSURLConnection (= 2.5.4)
-    - AFNetworking/NSURLSession (= 2.5.4)
-    - AFNetworking/Reachability (= 2.5.4)
-    - AFNetworking/Security (= 2.5.4)
-    - AFNetworking/Serialization (= 2.5.4)
-    - AFNetworking/UIKit (= 2.5.4)
-  - AFNetworking/NSURLConnection (2.5.4):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.4):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.4)
-  - AFNetworking/Security (2.5.4)
-  - AFNetworking/Serialization (2.5.4)
-  - AFNetworking/UIKit (2.5.4):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - BCGenieEffect (1.1)
-  - CHTCollectionViewWaterfallLayout (0.9.1)
-  - CocoaAsyncSocket (7.4.1)
+  - CHTCollectionViewWaterfallLayout (0.9.7):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.7)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.7)
+  - CocoaAsyncSocket (7.6.3)
   - NSObject-ObjectMap (2.3.1)
-  - RNThemeManager (0.1.2)
+  - RNThemeManager (0.1.0)
   - SCRScrollMenuController (0.5)
-  - SVProgressHUD (1.1.3)
+  - SVProgressHUD (2.1.2)
+  - UIColor-HexString (1.3.0)
 
 DEPENDENCIES:
   - AFNetworking
@@ -34,24 +31,37 @@ DEPENDENCIES:
   - CHTCollectionViewWaterfallLayout
   - CocoaAsyncSocket
   - NSObject-ObjectMap
-  - RNThemeManager (from `https://raw.githubusercontent.com/joeshang/RNThemeManager/master/RNThemeManager.podspec`)
+  - RNThemeManager
   - SCRScrollMenuController (from `https://raw.githubusercontent.com/joeshang/SCRScrollMenuController/master/SCRScrollMenuController.podspec`)
   - SVProgressHUD
+  - UIColor-HexString
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BCGenieEffect
+    - CHTCollectionViewWaterfallLayout
+    - CocoaAsyncSocket
+    - NSObject-ObjectMap
+    - RNThemeManager
+    - SVProgressHUD
+    - UIColor-HexString
 
 EXTERNAL SOURCES:
-  RNThemeManager:
-    :podspec: https://raw.githubusercontent.com/joeshang/RNThemeManager/master/RNThemeManager.podspec
   SCRScrollMenuController:
     :podspec: https://raw.githubusercontent.com/joeshang/SCRScrollMenuController/master/SCRScrollMenuController.podspec
 
 SPEC CHECKSUMS:
-  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BCGenieEffect: 3efb235716f121caa6b26040bfd0ae11e1bae4b4
-  CHTCollectionViewWaterfallLayout: 1a8da4fc662702cbddda8926ced266036a829f84
-  CocoaAsyncSocket: 7cbf214b27f8e7f7574db6a3fd96352ffaed433d
+  CHTCollectionViewWaterfallLayout: 9d11068fafecac106695bb5a5d6d0f738483b598
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   NSObject-ObjectMap: 3223c0c994a8e3de44ccb74ddf3e63c86821c015
-  RNThemeManager: 073c43a3a2daf4278fc62b0b6370e88b65ccad2c
-  SCRScrollMenuController: f0620d1540b709578c509e2ac889095164b40ef5
-  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  RNThemeManager: 7734a5619abe15e21556c9c3ff2df8f3ab20a538
+  SCRScrollMenuController: 78072374235973ddc8dcfa246a922d909f7d3ae6
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  UIColor-HexString: fadc2e1389db19147ac99dee92222d3bd8bfec4a
 
-COCOAPODS: 0.37.1
+PODFILE CHECKSUM: c79af33981f3fbd5e33770b1fea947f84d8b0d02
+
+COCOAPODS: 1.5.3

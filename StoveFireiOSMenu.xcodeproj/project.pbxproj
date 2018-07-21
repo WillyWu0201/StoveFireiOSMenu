@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		731CAACE6DBB4861A8AEDEC7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A19EEB29E7462C89A58EDF /* libPods.a */; };
+		3FD76C1A210333CA00A9EC4C /* UIColor-HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD76C19210333CA00A9EC4C /* UIColor-HexString.m */; };
+		3FD76C1F21039D7100A9EC4C /* default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD76C1E21039D7100A9EC4C /* default.plist */; };
 		D20BF1761A15F01F00A99FC4 /* SFProjectorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D20BF1751A15F01F00A99FC4 /* SFProjectorManager.m */; };
 		D22BE1941972747000A438D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22BE1931972747000A438D2 /* Foundation.framework */; };
 		D22BE1961972747000A438D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22BE1951972747000A438D2 /* CoreGraphics.framework */; };
@@ -117,6 +118,7 @@
 		D2C74BE01A0B41C200366ACC /* SFOrderProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C74BC51A0B41C200366ACC /* SFOrderProgressTableViewCell.xib */; };
 		D2C74BE11A0B41C200366ACC /* SFOrderProgressTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C74BC71A0B41C200366ACC /* SFOrderProgressTitleView.m */; };
 		D2C74BE21A0B41C200366ACC /* SFOrderProgressTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C74BC81A0B41C200366ACC /* SFOrderProgressTitleView.xib */; };
+		F44B86DCDDD8B19AB1515ABA /* libPods-StoveFireiOSMenuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B7FA43351190E5161BCBFC /* libPods-StoveFireiOSMenuTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,9 +132,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26FC53726517F5C14257F9EC /* libPods-StoveFireiOSMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StoveFireiOSMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EE94676251DAF922F5A4E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3FD76C18210333CA00A9EC4C /* UIColor-HexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor-HexString.h"; sourceTree = "<group>"; };
+		3FD76C19210333CA00A9EC4C /* UIColor-HexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor-HexString.m"; sourceTree = "<group>"; };
+		3FD76C1E21039D7100A9EC4C /* default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = default.plist; path = StoveFireiOSMenu/Theme/default.plist; sourceTree = "<group>"; };
+		4A86D0043EBEB95ECE9C58C1 /* Pods-StoveFireiOSMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveFireiOSMenuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoveFireiOSMenuTests/Pods-StoveFireiOSMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D861D3180E835E31305A104 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		52A19EEB29E7462C89A58EDF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B7FA43351190E5161BCBFC /* libPods-StoveFireiOSMenuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StoveFireiOSMenuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFC67BB6E0513544E86F9FC /* Pods-StoveFireiOSMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveFireiOSMenuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoveFireiOSMenuTests/Pods-StoveFireiOSMenuTests.release.xcconfig"; sourceTree = "<group>"; };
+		88815CFD2824CC5BF0E3A50D /* Pods-StoveFireiOSMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveFireiOSMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoveFireiOSMenu/Pods-StoveFireiOSMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		BA00EB83EC5DB126860494A0 /* Pods-StoveFireiOSMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveFireiOSMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoveFireiOSMenu/Pods-StoveFireiOSMenu.release.xcconfig"; sourceTree = "<group>"; };
 		D20BF1741A15F01F00A99FC4 /* SFProjectorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFProjectorManager.h; sourceTree = "<group>"; };
 		D20BF1751A15F01F00A99FC4 /* SFProjectorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFProjectorManager.m; sourceTree = "<group>"; };
 		D22BE1901972747000A438D2 /* StoveFireiOSMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoveFireiOSMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -300,7 +311,6 @@
 				D22BE1961972747000A438D2 /* CoreGraphics.framework in Frameworks */,
 				D22BE1981972747000A438D2 /* UIKit.framework in Frameworks */,
 				D22BE1941972747000A438D2 /* Foundation.framework in Frameworks */,
-				731CAACE6DBB4861A8AEDEC7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,17 +321,31 @@
 				D22BE1AD1972747000A438D2 /* XCTest.framework in Frameworks */,
 				D22BE1AF1972747000A438D2 /* UIKit.framework in Frameworks */,
 				D22BE1AE1972747000A438D2 /* Foundation.framework in Frameworks */,
+				F44B86DCDDD8B19AB1515ABA /* libPods-StoveFireiOSMenuTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FD76C142103336E00A9EC4C /* UIColor-HexString */ = {
+			isa = PBXGroup;
+			children = (
+				3FD76C18210333CA00A9EC4C /* UIColor-HexString.h */,
+				3FD76C19210333CA00A9EC4C /* UIColor-HexString.m */,
+			);
+			path = "UIColor-HexString";
+			sourceTree = "<group>";
+		};
 		C0C1DD76A75A6BAB01FAFB70 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				4D861D3180E835E31305A104 /* Pods.debug.xcconfig */,
 				36EE94676251DAF922F5A4E7 /* Pods.release.xcconfig */,
+				88815CFD2824CC5BF0E3A50D /* Pods-StoveFireiOSMenu.debug.xcconfig */,
+				BA00EB83EC5DB126860494A0 /* Pods-StoveFireiOSMenu.release.xcconfig */,
+				4A86D0043EBEB95ECE9C58C1 /* Pods-StoveFireiOSMenuTests.debug.xcconfig */,
+				6EFC67BB6E0513544E86F9FC /* Pods-StoveFireiOSMenuTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -368,6 +392,7 @@
 		D22BE1871972747000A438D2 = {
 			isa = PBXGroup;
 			children = (
+				3FD76C1E21039D7100A9EC4C /* default.plist */,
 				D22BE1991972747000A438D2 /* StoveFireiOSMenu */,
 				D22BE1B21972747000A438D2 /* StoveFireiOSMenuTests */,
 				D22BE1921972747000A438D2 /* Frameworks */,
@@ -394,6 +419,8 @@
 				D22BE1971972747000A438D2 /* UIKit.framework */,
 				D22BE1AC1972747000A438D2 /* XCTest.framework */,
 				52A19EEB29E7462C89A58EDF /* libPods.a */,
+				26FC53726517F5C14257F9EC /* libPods-StoveFireiOSMenu.a */,
+				57B7FA43351190E5161BCBFC /* libPods-StoveFireiOSMenuTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -461,6 +488,7 @@
 		D273A3B719C603180081BB37 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				3FD76C142103336E00A9EC4C /* UIColor-HexString */,
 				D26D1C3F1A17558700F348D1 /* UIView+DTDebug */,
 				D290281919CF1F650093AF33 /* CRTabBar */,
 				D273A3B819C603180081BB37 /* CRModal */,
@@ -690,11 +718,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D22BE1BC1972747000A438D2 /* Build configuration list for PBXNativeTarget "StoveFireiOSMenu" */;
 			buildPhases = (
+				BBF70098A71C6766C86952BF /* [CP] Check Pods Manifest.lock */,
 				22AC35759D854BF5A8319E2C /* Check Pods Manifest.lock */,
 				D22BE18C1972747000A438D2 /* Sources */,
 				D22BE18D1972747000A438D2 /* Frameworks */,
 				D22BE18E1972747000A438D2 /* Resources */,
-				A382ECC0756747C3B4A1991C /* Copy Pods Resources */,
+				C480BEB47D7B8110188E0378 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -709,6 +738,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D22BE1BF1972747000A438D2 /* Build configuration list for PBXNativeTarget "StoveFireiOSMenuTests" */;
 			buildPhases = (
+				58A6AF766177826575F59EDB /* [CP] Check Pods Manifest.lock */,
 				D22BE1A71972747000A438D2 /* Sources */,
 				D22BE1A81972747000A438D2 /* Frameworks */,
 				D22BE1A91972747000A438D2 /* Resources */,
@@ -790,6 +820,7 @@
 				D290287C19D35B700093AF33 /* member_login_user_icon@2x.png in Resources */,
 				D290289E19DACAD50093AF33 /* qrcode_scanning_box@2x.png in Resources */,
 				D273A3DD19C73CDE0081BB37 /* dish_cell_favor_hollow_icon@2x.png in Resources */,
+				3FD76C1F21039D7100A9EC4C /* default.plist in Resources */,
 				D290289D19DACAD50093AF33 /* qrcode_return_button@2x.png in Resources */,
 				D22CAF0519FF999C009A4919 /* default_dish_thumbnail@2x.png in Resources */,
 				D22CAF0319FF999C009A4919 /* default_dish_class@2x.png in Resources */,
@@ -849,19 +880,58 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A382ECC0756747C3B4A1991C /* Copy Pods Resources */ = {
+		58A6AF766177826575F59EDB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoveFireiOSMenuTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF70098A71C6766C86952BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoveFireiOSMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C480BEB47D7B8110188E0378 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StoveFireiOSMenu/Pods-StoveFireiOSMenu-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoveFireiOSMenu/Pods-StoveFireiOSMenu-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -875,6 +945,7 @@
 				D2C74BD91A0B41C200366ACC /* SFEnsureOrderingView.m in Sources */,
 				D2C74AE31A0B3BF500366ACC /* SFOrderManager.m in Sources */,
 				D273A3BE19C603180081BB37 /* UIImage+Blur.m in Sources */,
+				3FD76C1A210333CA00A9EC4C /* UIColor-HexString.m in Sources */,
 				D2C74B8F1A0B41B800366ACC /* SFOrderEmptyViewController.m in Sources */,
 				D273A3BD19C603180081BB37 /* CRModal.m in Sources */,
 				D290281E19CF1F650093AF33 /* CRTabBar.m in Sources */,
@@ -1030,7 +1101,7 @@
 		};
 		D22BE1BD1972747000A438D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D861D3180E835E31305A104 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 88815CFD2824CC5BF0E3A50D /* Pods-StoveFireiOSMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1048,7 +1119,7 @@
 		};
 		D22BE1BE1972747000A438D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36EE94676251DAF922F5A4E7 /* Pods.release.xcconfig */;
+			baseConfigurationReference = BA00EB83EC5DB126860494A0 /* Pods-StoveFireiOSMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1067,6 +1138,7 @@
 		};
 		D22BE1C01972747000A438D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A86D0043EBEB95ECE9C58C1 /* Pods-StoveFireiOSMenuTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DianXiaoEr-Menu-iOS.app/DianXiaoEr-Menu-iOS";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1089,6 +1161,7 @@
 		};
 		D22BE1C11972747000A438D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFC67BB6E0513544E86F9FC /* Pods-StoveFireiOSMenuTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DianXiaoEr-Menu-iOS.app/DianXiaoEr-Menu-iOS";
 				FRAMEWORK_SEARCH_PATHS = (
